@@ -21,3 +21,12 @@ button{
     border-radius: 5px;
     background-color: antiquewhite;
 }
+input{
+    height: 2rem;
+    width: 10rem;
+    margin: 20px;
+    text-align: center;
+    
+    border-radius: 10px;
+    border: none;
+}
