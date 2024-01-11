@@ -12,5 +12,11 @@ const cont = document.querySelector('.cont')
             let css = `background-image: linear-gradient(to right, ${back}, ${back1});`
              cont.style = css;
              //cont1.style.backgroundColor=css1;
+
+                const text = document.getElementById('text');
+            const text1 = document.getElementById('text2');
+            console.log(text)
+            text.setAttribute("value",`${back}`)
+            text1.setAttribute("value",`${back1}`)
             
         })
